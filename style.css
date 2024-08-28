@@ -12,10 +12,10 @@ scroll-behavior: smooth;
 }
 
 :root{
-  --bg-color: #e6166c;
-  --second-bg-color: #811369;
-  --text-color: white;
-  --main-color: black;
+  --bg-color: black;
+  --second-bg-color: #ffffff;
+  --text-color: #00ffee;
+  --main-color: white;
 }
 
 html{
@@ -93,7 +93,7 @@ section{
 
 .home-content{
   max-width: 60rem;
-  z-index: 99;
+  z-index: 100;
 }
 
 .home-content h1{
@@ -223,17 +223,17 @@ section{
   width: 40px;
   height: 40px;
   background: transparent;
-  border: .2rem solid var(--main-color);
+  border: red;
   border-radius: 50%;
   font-size: 20px;
-  color: var(--main-color);
+  color: red;
   z-index: 1;
   overflow: hidden;
   transition: .5s;
 }
 
 .home-sci a:hover{
-  color: var(--bg-color);
+  color: red;
 }
 .home-sci a::before{
 content: '';
@@ -242,7 +242,7 @@ top: 0;
 left: 0;
 width: 0;
 height: 100%;
-background: var(--main-color);
+background: red;
 z-index: -1;
 transition: .5s;
 }
@@ -330,9 +330,10 @@ span{
 }
 
 .about-content p{
-  position: relative;
+  /* position: relative; */
   font-size: 1.6rem;
   margin: 2rem 0 3rem;
+  color: white;
 }
 
 .btn-box.btns{
