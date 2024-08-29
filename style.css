@@ -148,6 +148,10 @@ section{
   font-size: 1.6rem;
   margin: 2rem 0 4rem;
 }
+.home-content p:hover{
+  color: white;
+  cursor: pointer;
+}
 
 .btn-box {
   position: relative;
@@ -333,7 +337,12 @@ span{
   /* position: relative; */
   font-size: 1.6rem;
   margin: 2rem 0 3rem;
+  color: #00ffee;
+}
+
+.about-content p:hover{
   color: white;
+  cursor: pointer;
 }
 
 .btn-box.btns{
